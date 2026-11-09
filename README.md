@@ -69,3 +69,7 @@ uv run mjt ik  models/z1_7axis/z1_7axis.xml 1.0,0,0.3 -k home   # reaches it by 
 ## Rendering notes
 
 Headless rendering uses EGL by default, which needs working GPU drivers. If rendering fails, try `MUJOCO_GL=osmesa uv run mjt render ...` (needs Mesa's OSMesa).
+
+## License
+
+MIT (see `LICENSE`) for this project's own code and models. `models/z1/` is Unitree's Z1 model from MuJoCo Menagerie under its own BSD-3 license (`models/z1/LICENSE`).
